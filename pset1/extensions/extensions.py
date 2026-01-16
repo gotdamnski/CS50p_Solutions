@@ -1,6 +1,6 @@
 def main():
     file_name = input("File name: ")
-    file_name = file_name.lower()
+    file_name = file_name.lower().strip()
 
     if file_name.endswith('.gif'):
         print("image/gif")
